@@ -1,0 +1,51 @@
+.header {
+    background-color: rgb(72, 72, 247);
+    padding: 25px;
+    width: 1150px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.header a {
+    color: white;
+    margin-right: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 160%;
+    padding-left: 10px;
+}
+
+.header a:hover {
+    background-color: red;
+    
+}
+
+
+.header-2 a {
+    background-color: rgb(55, 55, 231);
+    color: white;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.header-2 .sign {
+    position: absolute;
+    right: 220px;
+    top: 33px;
+    text-decoration:  none;
+    font-size: 160%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-2 .log {
+    position: absolute;
+    right: 100px;
+    top: 33px;
+    text-decoration: none;
+    font-size: 160%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
