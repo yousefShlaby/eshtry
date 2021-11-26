@@ -1,51 +1,57 @@
-.header {
-    background-color: rgb(72, 72, 247);
-    padding: 25px;
-    width: 1150px;
-    border-radius: 10px;
+nav {
+    background-color: #A44200;
+    width: 700px;
+    border-radius: 20px;
     margin: auto;
-    margin-top: 25px;
 }
 
-.header a {
+nav a {
+    display: inline-block;
+    padding: 20px;
     color: white;
-    margin-right: 50px;
     text-decoration: none;
-    font-weight: bold;
+    text-transform: capitalize;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 160%;
-    padding-left: 10px;
 }
 
-.header a:hover {
-    background-color: red;
+nav .about {
+    float: right;
+    background-color: #ac5216;
+    border-radius: 0 20px 20px 0;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: navy;
+}
+
+.join .sign {
+    background-color: #ac5216;
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 10px;
+    position: absolute;
+    right: 230px;
+    top: 15px;
+    font-weight: bold;
+
+
+}
+.join .log {
+    background-color: #ac5216;
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 10px;
+    position: absolute;
+    right: 150px;
+    top: 15px;
+    font-weight: bold;
     
 }
 
-
-.header-2 a {
-    background-color: rgb(55, 55, 231);
-    color: white;
-    width: fit-content;
-    text-align: center;
-    border-radius: 10px;
-    padding: 20px;
-}
-
-.header-2 .sign {
-    position: absolute;
-    right: 220px;
-    top: 33px;
-    text-decoration:  none;
-    font-size: 160%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.header-2 .log {
-    position: absolute;
-    right: 100px;
-    top: 33px;
-    text-decoration: none;
-    font-size: 160%;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
